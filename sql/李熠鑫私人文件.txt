@@ -1,0 +1,31 @@
+﻿<div class="grid_7">
+    <h2>精品贴</h2><br>
+    <div class="blog">
+        <img src="__PUBLIC__/img/Pet/page4_img1.jpg" alt="" class="img_inner fleft i1">
+        <div class="extra_wrapper">
+            <div class="text2 col2">Nunc fringilla diam sit amet adipi scingo bibendum turpis. </div>Velit feugiat urna etlort pharetra neque nisi ac nunc.Vivamus est quam dapibus ullamcolot rperolty hokibh ullamcorper.
+        </div>
+        <div class="clear"></div>Praesent quis orci eget diam viverra consequat. Fusce sagittis quam in pulvinar sollicitudin velit velit cursus nibh ullamcorper accumsan sem lectus ut sapien. Donec venenatis posuere velit aty convallis neque ullamcorper quis. Integer posuere ipsum eu risus sollicitudin nec varius eratylo luctus. Fusce fringilla erat ac urna pe llentesque congue. Nunc fringilla diam sit amet adipi scing bibendum turpis velit feugiat urna et pharetra neque nisi ac nunc. Vivamus est quam dapibuslok.
+        <br>
+        <a href="#" class="btn">More</a>
+    </div>
+
+</div>
+<div class="grid_4 prefix_1">
+    <h2 class="ic1">分类</h2>
+    <ul class="list1">
+        <?php foreach($Cate_List as $k => $val){?>
+
+        <li>
+            <?php if (($k % 2) != 0){?>
+            <span class="cnt"></span>
+            <?php }else{ ?>
+            <span ></span>
+            <?php }?>
+            <div class="extra_wrapper">
+                <div class="col1"><a href="#"><?php echo $val['name']?></a></div></div>
+        </li>
+        <?php }?>
+
+
+    </ul></div>

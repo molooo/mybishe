@@ -1,0 +1,25 @@
+body{
+    padding-top: 50px;
+    background-color: #e5f6ff;
+}
+.welcome{
+    color: #ffffff;
+    float: right;
+    padding-top: 15px;
+}
+
+.rightBtn{
+    float: right;
+    padding-top: 10px;
+}
+.body{
+    padding-top: 10px;
+}
+i{
+    color: red;
+}
+#image1{
+    width: 150px;
+    height: 150px;
+}
+

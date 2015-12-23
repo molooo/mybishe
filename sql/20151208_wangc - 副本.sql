@@ -1,0 +1,13 @@
+ALTER TABLE `housemessage` CHANGE `leixing` `leixing` INT( 11 ) NULL COMMENT '房屋类型1租房 2二手房 3新房';
+ALTER TABLE `housemessage` CHANGE `housename` `housename` INT( 11 ) NULL COMMENT '房屋名称';
+ALTER TABLE `housemessage` CHANGE `leixing` `leixing` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '房屋类型1租房 2二手房 3新房';
+ALTER TABLE `housemessage` CHANGE `housename` `housename` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '房屋名称';
+ALTER TABLE `housemessage` CHANGE `houseprice` `houseprice` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '房屋价格';
+ALTER TABLE `housemessage` CHANGE `houseaddress` `houseaddress` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '房屋地址';
+ALTER TABLE `housemessage` CHANGE `ting` `ting` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '几厅';
+ALTER TABLE `housemessage` CHANGE `wei` `wei` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '几卫';
+ALTER TABLE `housemessage` CHANGE `chicun` `chicun` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '房屋尺寸';
+ALTER TABLE `housemessage` CHANGE `image1` `image1` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '房屋图片1';
+ALTER TABLE `housemessage` CHANGE `lianxirenname` `lianxirenname` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '联系人名称';
+ALTER TABLE `housemessage` CHANGE `lianxirenid` `lianxirenid` INT( 20 ) NOT NULL COMMENT '联系人id';
+ALTER TABLE `housemessage` CHANGE `phone` `phone` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '联系人电话';

@@ -1,0 +1,6 @@
+[ 2015-12-20T19:24:38+08:00 ] ::1 /ag_bishe/Application/index.php/img/Train/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Img
+

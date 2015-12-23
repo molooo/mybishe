@@ -1,0 +1,17 @@
+body{
+    padding-top: 50px;
+    background-color: #e5f6ff;
+}
+.welcome{
+    color: #ffffff;
+    float: right;
+    padding-top: 10px;
+}
+.rightBtn{
+    float: right;
+    padding-top: 10px;
+}
+.tab{
+    text-align: center;
+    border: 1px solid;
+}

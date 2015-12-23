@@ -1,0 +1,10 @@
+[ 2015-12-19T18:12:04+08:00 ] ::1 /ag_bishe/Application/index.php/Public/img/car/22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2015-12-19T18:13:31+08:00 ] ::1 /ag_bishe/Application/index.php/Public/img/car/22.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+

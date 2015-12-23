@@ -1,0 +1,100 @@
+.search{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei_bg.gif") no-repeat scroll 0 0; 
+	border:1px solid #fed454;
+	height:66px;
+	margin-top:50px;
+}
+.fenlei{
+	float: left;
+    height: 66px;
+    text-align: center;
+    width: 159px;
+}
+.bigdog{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -5px -13px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 59px;
+}
+.middog{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -67px -13px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 59px;
+}
+.smalldog{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -135px -13px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 59px;
+}
+.cat{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -8px -67px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 72px;
+}
+.fish{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -85px -66px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 72px;
+}
+.paxing{
+	background: rgba(0, 0, 0, 0) url("../../img/Pet/fenlei.gif") no-repeat scroll -150px -66px;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 1px;
+    margin-left: 43px;
+    width: 59px;
+}
+b{
+	color: #555;
+    float: left;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.t_s_c_effect {
+    border-bottom: 1px solid #dadada;
+    overflow: hidden;
+    padding: 14px 0;
+    width: 940px;
+}
+.t_s_c_effect ul li {
+    display: inline;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 10px;
+    overflow: hidden;
+    width: 120px;
+}
+.t_s_c_effect_title {
+    float: left;
+    line-height: 20px;
+    overflow: hidden;
+    width: 100px;
+}
+.t_s_c_effect_title em {
+    font-size: 12px;
+    font-style: normal;
+    margin-left: 10px;
+    color: black;
+}
+
+.thing_search_content {
+	margin-top:10px;
+    overflow: hidden;
+    padding: 0 9px 9px;
+    border: 1px solid #fed454;;
+}

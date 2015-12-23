@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===============
+ * 重新定义Html元素
+ * =============== */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, table, th, td { font-size: 1em; font-style: normal; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol { list-style: none outside none;}
+fieldset, img { border: medium none;}
+caption, th {  text-align: left;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+body { font: 12px/150% "Hiragino Sans GB","Microsoft Yahei",arial,宋体,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; color: #666666;  background: #FFF none repeat scroll 0 0; margin: 0; padding: 0;}
+a { color: #000; outline: medium none;}
+a:link, a:visited, a:active { text-decoration: none;}
+a:hover { color: #47CDFF; text-decoration: none;}
+i, cite, em { font-style: normal;}
+/* ==========================
+ * 为旧版本浏览器格式化Html5元素
+ * ========================== */
+article, aside, dialog, footer, header, section, footer, nav, figure, menu { display:block; }
+
+/* ==========================
+ * 常用宽度、高度、边距、边框属性
+ * ========================== */
+.w { width: 100%}
+.wrapper { width:700; margin: auto;}
+
+.fl { float: left;}
+.fr { float: left;}
+
+.block { display: block;}
+.none { display: none;}
+
+.goods-price { font-family: Verdana;}
+.goods-price em { font-weight: 600; color: #C00;}
+.nc-appbar-tabs a.compare { display: none !important;}/*团购页面去除侧边栏对比
+
+/* ==========================
+ * 广告区域布局样式
+ * ========================== */
+.ads-topbanner-layout { text-align: center; display: block; width: 100%; overflow: hidden;}
+
+/* 公用导航区域
+-------------------------------------- */
+/*区块中部*/
+.home-standard-layout .middle-layout { width:1000px; height:; float: left;}
+.home-standard-layout .tabs-nav { background-color: transparent; width: 100%; height: 40px; border-style: solid; border-width: 0 0 2px 0; border-color: transparent transparent #DDD transparent; position: relative; z-index: 1;}
+.home-standard-layout .tabs-nav li { background-color: transparent; width: 25%; height: 40px; float: left; padding: 0; border-style: solid; border-width: 0 0 2px 0; border-color: #DDD; position: relative; z-index: 1; cursor: pointer;}
+.home-standard-layout .tabs-nav li h3 { font-size: 20px; font-weight: 600;}
+.home-standard-layout .tabs-nav li i { font-size: 0px; line-height: 0; display: none; width: 0px; height:; float: left; margin-left: -4px; border-width: 5px;  border-style:dashed dashed solid dashed; position: absolute; z-index: 1; bottom: 0; left: 50%;}
+.home-standard-layout .tabs-panel {  width:; height:; padding: 0; margin: 0; position: relative; z-index: 1;}
+.home-standard-layout .tabs-panel1 {float:left;}
+/*中部推荐商品列表*/
+.home-standard-layout .middle-goods-list { width:; height:; border-style: solid; border-width: 0 1px 1px 0; border-color: transparent #DDD #DDD transparent; overflow: hidden;}
+.home-standard-layout .middle-goods-list ul { width:; height:; margin: 0  -1px -1px 0; }
+.home-standard-layout .middle-goods-list ul li { width: 249px; height: 249px; float: left; border-style: solid; border-width: 0 1px 1px 0; border-color: transparent #DDD #DDD transparent; overflow: hidden;}
+.home-standard-layout .middle-goods-list dl { width: 160px; margin: 15px auto auto; position: relative; z-index: 1;}
+.home-standard-layout .middle-goods-list dl dt.goods-name { font-family: Tahoma; line-height: 16px; width: 160px; height: 22px; position: absolute; z-index: auto; top: 210px; left: 0; overflow: hidden;}
+.home-standard-layout .middle-goods-list dl dd.goods-thumb { width: 160px; height: 160px; position: absolute; z-index: auto; top: 0; left: 0;}
+.home-standard-layout .middle-goods-list dl dd.goods-thumb a { text-align: center; vertical-align: middle; display: table-cell; *display: block; width: 160px; height: 160px; overflow: hidden; }
+.home-standard-layout .middle-goods-list dl dd.goods-thumb img { width: 190px; height: 150px; }
+.home-standard-layout .middle-goods-list dl dd.goods-price { font-size: 14px; line-height: 20px; position: absolute; z-index: auto; top: 204px; left: 0;}
+.home-standard-layout .middle-goods-list dl dd.goods-price .original { font-size: 12px; font-weight: normal; text-decoration: line-through; color: #999; vertical-align: middle; margin-left: 6px;}
+/* 友情链接 */
+.piclink span { background-color: #FFF; border: 1px solid #D8D8D8; width: 88px; height: 31px; display: inline; float: left; padding: 2px;margin-right: 13px; }
+.piclink {  margin: 10px auto;}
+.textlink { clear: both; margin: 0 auto; padding: 0 0 10px 0;}
+.textlink span { width: 88px; display: inline; float: left; padding: 2px;margin-right: 13px; }
+.textlink a { line-height: 22px; display: block; width: 97px; float: left; text-align:center}

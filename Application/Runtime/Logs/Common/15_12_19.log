@@ -1,0 +1,54 @@
+[ 2015-12-19T10:25:42+08:00 ] ::1 /ag_bishe/Application/index.php/Train/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Train
+
+[ 2015-12-19T18:12:04+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:12:17+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:12:20+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:12:39+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:12:40+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:13:31+08:00 ] ::1 /ag_bishe/Application/index.php/img/Index/diagonal-lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 无法加载模块:Img
+
+[ 2015-12-19T18:17:53+08:00 ] ::1 /ag_bishe/Application/index.php/Houser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Houser
+
+[ 2015-12-19T18:17:57+08:00 ] ::1 /ag_bishe/Application/index.php/House
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:House
+
